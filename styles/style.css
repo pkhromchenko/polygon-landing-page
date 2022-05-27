@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@200;400;700&display=swap");
 
 body {
-  font-family: Roboto, sans-serif;
-  overflow: hidden;
+  font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 .header-container {
   display: flex;
@@ -16,9 +19,11 @@ body {
 .right-links {
   display: flex;
   list-style-type: none;
-  gap: 40px;
+  gap: 100px;
 }
 #logo {
+  font-size: 18px;
+  color: #f9faf8;
   font-weight: bold;
 }
 a {
@@ -29,11 +34,15 @@ a {
   margin-left: 350px;
   margin-right: 350px;
   justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
 }
 .header-photo {
-  height: 200px;
-  width: 312px;
+  height: 300px;
+  width: 600px;
   border-radius: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 h3 {
   font-size: 48px;
@@ -46,10 +55,106 @@ h3 {
   flex-direction: column;
 }
 .top-container {
-  background: #193084;
-  background: -webkit-radial-gradient(top left, #193084, #3885e8);
-  background: -moz-radial-gradient(top left, #193084, #3885e8);
-  background: radial-gradient(to bottom right, #193084, #3885e8);
+  background: #1f2937;
+}
+.Sign-up-btn {
+  width: 150px;
+  border-radius: 7px;
+  margin-top: 5px;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+  font-weight: 550;
+}
+.intro {
+  font-size: 18px;
+  color: lightgray;
+}
+.explore {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin: 20px;
+}
+.random-info {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.workimg {
+  border: 3px solid #3882f6;
+  border-radius: 9px;
+  margin-bottom: 8px;
+}
+.catalog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 120px;
+  gap: 75px;
+}
+.work1 {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+.quote {
+  border-style: solid;
+  border-color: #3882f6;
 }
 li {
+  padding: 10px;
+}
+.quote-container {
+  background-color: #e5e7eb;
+  padding-right: 490px;
+  padding-left: 490px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.inspiring-quote-txt {
+  font-size: 20px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 200;
+}
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+}
+.call-to-action {
+  background-color: #3882f6;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+}
+.call-text {
+  display: flex;
+  flex-direction: column;
+}
+.quote-btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 7px;
+  margin-top: 5px;
+  background-color: #3882f6;
+  border-color: white;
+  color: white;
+  padding: 5px;
+  font-weight: 550;
+}
+.call-text1 {
+  font-size: 20px;
+  font-weight: bold;
 }

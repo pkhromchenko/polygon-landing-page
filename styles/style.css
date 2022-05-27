@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", monospace;
+  font-family: "Lato", "Open-Sans", Helvetica, sans-serif, monospace;
   display: flex;
   flex-direction: column;
   overflow: scroll;

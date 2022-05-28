@@ -88,7 +88,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 120px;
+  margin-bottom: 110px;
   gap: 75px;
 }
 .work1 {
@@ -109,8 +109,8 @@ li {
   background-color: #e5e7eb;
   padding-right: 490px;
   padding-left: 490px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -123,6 +123,7 @@ li {
 .quote-author {
   text-align: right;
   font-weight: bold;
+  margin-right: 40px;
 }
 .call-to-action {
   background-color: #3882f6;
